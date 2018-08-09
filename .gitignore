@@ -1,0 +1,45 @@
+src/config/conn.properties
+src/config/local.properties
+*.class
+*.log
+metastore_db/
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.target
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Eclipse
+.settings/
+.project
+.cache-main
+.cache-tests
+.classpath
+
+# IDEA
+*.iml
+.idea/**
+
+*.crc
+checkpoint/
